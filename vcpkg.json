@@ -1,18 +1,15 @@
 {
-        "dependencies": [
-                {
-                        "name": "ixwebsocket"
-                },
-                {
-                        "name": "redis-plus-plus",
-                        "features": [
-                                "tls"
-                        ]
-                }
-        ],
-        "vcpkg-configuration": {
-                "overlay-ports": [
-                        "./extension-ci-tools/vcpkg_ports"
-                ]
+    "dependencies": [
+        {
+            "name": "ixwebsocket"
+        },
+        {
+            "name": "redis-plus-plus"
         }
+    ],
+    "vcpkg-configuration": {
+        "overlay-ports": [
+            "./extension-ci-tools/vcpkg_ports"
+        ]
+    }
 }
