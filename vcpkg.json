@@ -7,7 +7,12 @@
                         "name": "redis-plus-plus",
                         "features": [
                                 "tls"
-                        ]
+                        ],
+                        "platform": "!windows"
+                },
+                {
+                        "name": "redis-plus-plus",
+                        "platform": "windows"
                 }
         ],
         "vcpkg-configuration": {
